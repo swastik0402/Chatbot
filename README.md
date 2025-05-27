@@ -1,4 +1,4 @@
-# 👋 Swastik Roy Choudhury – AI & Technology Portfolio
+# 👋 Swastik Roy Choudhury – Portfolio
 
 🎓 **B.Tech in Information Technology (2021–2025)**  
 📍 Kalinga Institute of Industrial Technology(KIIT DU), Bhubaneswar  
@@ -16,12 +16,49 @@
 ## 🧠 Projects
 
 ### 📌 1. Generative AI Chatbot (2024)
-- Upload a document and ask questions based on its content.
-- Built using **OpenAI GPT-3.5-Turbo**, Python, Streamlit.
+🔹 Overview:
+- This project was designed to create an intelligent chatbot that can read user-uploaded documents and answer questions based on their content. The goal was to reduce the time spent manually reading through documents by allowing users to query them naturally — like talking to an AI assistant.
+
+🔹 How It Works:
+- The user uploads a PDF document.
+- The backend parses the file and extracts text using libraries like pdfplumber and docx.
+- When a user asks a question, the relevant document content and the query are sent to OpenAI's GPT-3.5-Turbo.
+- The model responds with an accurate, context-aware answer based on the uploaded document.
+
+🔹 Technologies Used:
+-Frontend: Streamlit (for file upload and chat interface)
+- Backend: Python
+- AI Model: GPT-3.5-Turbo via OpenAI API
+- File Parsing: pdfplumber
+- Prompt Engineering: Dynamic context window with token management
+- Embedding + Search (optional): FAISS or HuggingFace embeddings
+
+🔹 Outcome:
+- Created a functional prototype that mimics real-world use cases like document summarization, compliance document analysis, and contract Q&A.
+- Helped build a strong understanding of prompt engineering and OpenAI’s token limits.
 
 ### 📈 2. Stock Market Prediction using LSTM (2025)
-- Predict stock price trends with LSTM models.
-- Includes Streamlit interface, Keras model training.
+🔹 Overview:
+- This project aimed to forecast stock market trends using historical price data and Long Short-Term Memory (LSTM) neural networks — a type of deep learning model known for time-series prediction.
+
+🔹 How It Works:
+- Historical stock data is fetched using the yfinance library.
+- Data is preprocessed and normalized for better model performance.
+- An LSTM model is trained using TensorFlow/Keras to learn the sequential pattern in stock prices.
+- The model makes predictions on future stock prices.
+- A Streamlit interface allows users to choose a stock and view predicted vs. actual prices graphically.
+
+🔹 Technologies Used:
+- Machine Learning: LSTM, TensorFlow, Keras
+- Data Collection: yfinance
+- Visualization: Matplotlib, Seaborn
+- Frontend: Streamlit (interactive prediction dashboard)
+
+🔹 Outcome:
+- Successfully predicted stock price trends with visualization.
+- Gained practical experience with time-series forecasting, deep learning workflows, and Python-based deployment.
+
+
 
 ---
 
